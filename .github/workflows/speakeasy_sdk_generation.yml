@@ -21,9 +21,11 @@ jobs:
       languages: |
         - typescript
       mode: pr
+      openapi_doc_auth_header: x-api-key
       openapi_docs: |
-        - http://4.149.153.66/openapi.json
+        - https://app.speakeasyapi.dev/v1/apis/Dataservice/version/v0.0.1/schema/download
       speakeasy_version: latest
     secrets:
       github_access_token: ${{ secrets.GITHUB_TOKEN }}
+      openapi_doc_auth_token: ${{ secrets.SPEAKEASY_API_KEY }}
       speakeasy_api_key: ${{ secrets.SPEAKEASY_API_KEY }}
