@@ -22,8 +22,8 @@ jobs:
         - typescript
       mode: pr
       openapi_docs: |
-        - https://gist.githubusercontent.com/andyndang/f65270809552c1f964c4a4f93c3977aa/raw/0260278e0e46262c0153a3a79b2cf252cd902fae/dataservice.yml
+        - http://4.149.153.66/openapi.json
       speakeasy_version: latest
     secrets:
       github_access_token: ${{ secrets.GITHUB_TOKEN }}
-      speakeasy_api_key: ${{ secrets.SPEAKEASY_PROD_API_KEY }}
+      speakeasy_api_key: ${{ secrets.SPEAKEASY_API_KEY }}
