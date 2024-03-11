@@ -1,0 +1,9 @@
+# StatusResponse
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `httpMeta`                                                                                       | [components.HTTPMetadata](../../models/components/httpmetadata.md)                               | :heavy_check_mark:                                                                               | N/A                                                                                              |
+| `processLoggerStatusResponse`                                                                    | [components.ProcessLoggerStatusResponse](../../models/components/processloggerstatusresponse.md) | :heavy_minus_sign:                                                                               | Successful Response                                                                              |

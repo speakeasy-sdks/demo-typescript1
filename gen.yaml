@@ -1,6 +1,7 @@
 configVersion: 2.0.0
 generation:
   sdkClassName: Dataservice
+  maintainOpenAPIOrder: true
   usageSnippets:
     optionalPropertyRendering: withExample
   useClassNamesForArrayFields: true
@@ -8,9 +9,15 @@ generation:
     nameResolutionDec2023: false
     parameterOrderingFeb2024: false
     requestResponseComponentNamesFeb2024: false
+  auth:
+    oAuth2ClientCredentialsEnabled: false
   baseServerURL: ""
 typescript:
   version: 0.0.1
+  additionalDependencies:
+    dependencies: {}
+    devDependencies: {}
+    peerDependencies: {}
   author: demo
   clientServerStatusCodesAsErrors: true
   flattenGlobalSecurity: true
@@ -26,4 +33,5 @@ typescript:
   maxMethodParams: 0
   outputModelSuffix: output
   packageName: Dataservice
+  responseFormat: envelope-http
   templateVersion: v2
