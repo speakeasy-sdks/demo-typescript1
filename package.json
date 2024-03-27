@@ -1,6 +1,6 @@
 {
   "name": "Dataservice",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "demo",
   "main": "./index.js",
   "sideEffects": false,

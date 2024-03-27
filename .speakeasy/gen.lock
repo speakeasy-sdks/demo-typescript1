@@ -3,17 +3,17 @@ id: b037ac8b-51e0-4167-b2f7-3e34f4858e43
 management:
   docChecksum: 8603d6305c152345bd5e6c66833951ff
   docVersion: 0.1.0
-  speakeasyVersion: 1.213.0
-  generationVersion: 2.283.1
-  releaseVersion: 0.0.1
-  configChecksum: e1395ad43f55205369d12802ea1bd3e1
+  speakeasyVersion: 1.227.0
+  generationVersion: 2.291.0
+  releaseVersion: 0.1.0
+  configChecksum: 12baa2ad26ca7128c6df4eb73b44e985
   repoURL: https://github.com/speakeasy-sdks/demo-typescript1.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/demo-typescript1
 features:
   typescript:
     constsAndDefaults: 0.1.5
-    core: 3.6.3
+    core: 3.7.0
     globalSecurity: 2.82.8
     globalServerURLs: 2.82.4
     responseFormat: 0.2.2
